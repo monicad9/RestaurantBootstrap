@@ -1,4 +1,4 @@
-
+/*
 
 	$(document).ready(function () {
 		$(document).on("scroll", onScroll);
@@ -50,3 +50,4 @@
         });
     
     };
+*/

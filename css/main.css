@@ -186,7 +186,7 @@ nav {
 }
 
 li{
-    color: white !important;
+    color: black !important;
     /*padding-left: 10px;*/
     word-spacing: 5px !important;
 }
@@ -198,7 +198,7 @@ INTRO CONTAINER
     padding: 0;
     min-width: 100%;
     height: 100%;
-    background: url('../images/steak.jpg') no-repeat center center;
+    background: url('../images/index.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
     background-position: center;  
@@ -316,8 +316,8 @@ DESCRIPTION BODY CONTENT
     margin: 45px auto;
     max-width: 300px;
 }
-h1 {
-    font-size: 28px;
+ h1 {
+   font-size: 28px;
     font-weight: 900;
     width: 225px;
     letter-spacing: 0.040em;
@@ -856,4 +856,46 @@ MEDIA QUERIE DESKTOP
     .social_icons li a {
         font-size: 30px;
     }
+}
+
+
+/* ==========================================================================
+    06. Food menu 
+========================================================================== */
+.menu-items {
+    text-align:center;
+    margin:0 auto;
+}
+.menu-titles h2 {
+    text-shadow:none;
+    color:#ed0121;
+    text-align:center;
+    margin:0 auto;
+    padding-top:30px;
+    padding-bottom:15px;
+}
+#food-menu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.menu-images img {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    border:5px solid #dadada;
+    display:block;
+    margin:auto;
+    margin-top: 40px;
+}
+
+img {
+    max-height:100%;
+    max-width:100%;
+}
+
+
+.check{
+    font-size: 20px;
+    
 }
