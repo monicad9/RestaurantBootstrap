@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurant</title>
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Restaurant</a>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="color_animation" href="./index.html">WELCOME</a></li>
+                            <li><a class="color_animation" href="./about.html">ABOUT</a></li>
+                            <li><a class="color_animation" href="./menu.html">MENU</a></li>
+                            <li><a class="navactive color_animation" href="./reservation.html">RESERVATION</a></li>
+                            <li><a class="color_animation" href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <section  id="reservation"  class="description_content">
+            <div class="featured background_content">
+                <h1>Reserve a Table!</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="inner contact">
+
+                    <div class="contact-form">
+
+                        <form id="contact-us" method="post" action="reserve.php">
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
+                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="State" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+
+                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
+                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Guest Number" />
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+
+                                        <div class="right-text">
+                                            <h2>Hours</h2><hr>
+                                            <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
+                                            <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
+                                            <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
+                                            <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
+                                            <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clear"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-12"><p class="sub-footer-text text-center">&copy; 2017, Made by Mónica Daza Aguilera & Jose Marcos Leyva Castro</p></div>
+
+            </div>
+        </footer>
+
+    </body>
+</html>
