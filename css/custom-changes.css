@@ -1,4 +1,16 @@
-.cheff-photo {
+#chefs .row {
+	margin: 20px 0px;
+}
+
+#about p.about-desc-text {
+	margin: 20px 0px;
+} 
+
+#about .background_content{
+	background-image: url('../images/about-us.jpg');
+}
+
+.chef-photo {
 	display: block;
 	width: 180px;
 	height: 180px;
@@ -7,9 +19,15 @@
 	border-radius: 90px;
 	margin: auto auto;
 	border: 8px solid #CCC;
+    -webkit-transition: border-color 1s; /* Safari */
+    transition: border-color 1s;
 }
 
-.cheff-name:after {
+#chefs .row [class*="col-"]:hover .chef-photo {
+	border-color: #FF324A;
+}
+
+.chef-name:after {
 	content: " ";
 	width: 110px;
 	height: 1px;
@@ -18,6 +36,6 @@
 	margin: 10px auto auto auto;
 }
 
-.cheff-text p {
+.chef-text p {
 	font-size: 16px;
 }
