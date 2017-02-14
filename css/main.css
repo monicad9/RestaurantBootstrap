@@ -634,46 +634,11 @@ MEDIA QUERIE DESKTOP
     text-align:center;
     margin:0 auto;
 }
-.menu-titles h2 {
-    text-shadow:none;
-    color:#ed0121;
-    text-align:center;
-    margin:0 auto;
-    padding-top:30px;
-    padding-bottom:15px;
-}
+
 #food-menu ul {
     margin:0;
     padding:0;
     list-style:none;
-}
-.menu-images img {
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
-    border:5px solid #dadada;
-    display:block;
-    margin:auto;
-    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
-/*.menu-images{
-    margin-top: 40px;
-    border-radius:10px;
-    height:120px ;
-    width:175px;
-    display:block;
-    background-size: cover;
-}*/
-
-
-img {
-    height:120px ;
-    width:175px;
-}
-
-
-.check{
-    font-size: 20px;
-    
-}

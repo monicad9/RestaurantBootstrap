@@ -1,4 +1,4 @@
-#chefs .row {
+#chefs, #menuCompleto .row {
 	margin: 20px 0px;
 }
 
@@ -10,7 +10,7 @@
 	background-image: url('../images/about-us.jpg');
 }
 
-.chef-photo {
+.chef-photo, .menu-photo {
 	display: block;
 	width: 180px;
 	height: 180px;
@@ -23,11 +23,15 @@
     transition: border-color 1s;
 }
 
-#chefs .row [class*="col-"]:hover .chef-photo {
-	border-color: #FF324A;
+#chefs .row [class*="col-"]:hover .chef-photo{
+	border-color: #ff3300;
 }
 
-.chef-name:after {
+#menuCompleto .row [class*="col-"]:hover .menu-photo{
+	border-color: #ff3300;
+}
+
+.chef-name:after, .food-name:after {
 	content: " ";
 	width: 110px;
 	height: 1px;
