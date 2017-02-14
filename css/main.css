@@ -16,7 +16,7 @@ h1 {
     letter-spacing: 0.040em;
     position: relative;
     display: inline-block;
-    margin: 30px auto; 
+    margin: 25px auto !important; 
     /*border: 1px solid rgba(47, 46, 47, 0.59);*/
 }
 
