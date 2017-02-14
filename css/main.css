@@ -16,7 +16,8 @@ h1 {
     letter-spacing: 0.040em;
     position: relative;
     display: inline-block;
-    margin: 25px auto !important; 
+    margin: 25px auto !important;
+    text-align: center;
     /*border: 1px solid rgba(47, 46, 47, 0.59);*/
 }
 
@@ -90,7 +91,7 @@ body, html {
 h1, h2, p, span, a {
     font-family: "museo-sans", helvetica, sans-serif;
     color: #2f2e2f;
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
 }
 
@@ -305,7 +306,7 @@ p.sub-footer-text a{
 
 
 .inner.contact {
-    padding: 50px 0;
+    padding: 0px 0px 50px 0px;
 }
 
 
@@ -322,18 +323,18 @@ p.sub-footer-text a{
 }
 
 .form:hover{
-    border:1px solid #8BC3A3;
+    border:1px solid #ff3300;
 }
 
 .form:focus{
     color: white;
     outline: none;
-    border:1px solid #8BC3A3;
+    border:1px solid #ff3300;
 }
 
 .textarea{
-    height: 200px;
-    max-height: 200px;
+    height: 206px;
+    /*max-height: 200px;*/
     max-width: 100%;
 } 
 
@@ -368,7 +369,7 @@ p.sub-footer-text a{
     height: auto;
     padding:15px;
     color:#fff;
-    background:rgba(80, 160, 108, 1);
+    background:rgba(255, 51, 0, 1);
     border:none;
     border-radius:3px;
     outline: none;
@@ -383,7 +384,7 @@ p.sub-footer-text a{
 }
 
 .form-btn:hover{
-    background: rgba(85, 184, 120, 1);
+    background: rgba(255, 118, 102, 1);
     color: white;
     border:none;
 }
@@ -647,21 +648,5 @@ MEDIA QUERIE DESKTOP
     }
 
 
-}
-
-
-/* ==========================================================================
-    06. Food menu 
-========================================================================== */
-.menu-items {
-    text-align:center;
-    margin:0 auto;
-}
-
-#food-menu ul {
-    margin:0;
-    padding:0;
-    list-style:none;
-    margin-bottom: 30px;
 }
 

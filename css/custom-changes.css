@@ -1,3 +1,28 @@
+button[type="submit"] {
+	margin: 0px auto;
+	float: none;
+}
+
+.h1-wrap {
+	text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF; 
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .collapsed {
+	background-color: transparent;
+}
+
+/* ==========================================================================
+    About
+========================================================================== */
+
 #chefs, #menuCompleto .row {
 	margin: 20px 0px;
 }
@@ -42,4 +67,23 @@
 
 .chef-text p {
 	font-size: 16px;
+}
+
+/* ==========================================================================
+    Food menu 
+========================================================================== */
+.menu-items {
+    text-align:center;
+    margin: 0 auto;
+}
+
+#food-menu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    margin-bottom: 30px;
+}
+
+#food-menu ul li{
+	margin: 5px 0px;
 }
